@@ -2,7 +2,7 @@
     width: 415.4px;
   height: 118.9px;
   margin: 0 0px 25px 0;
-  background-color: #eae1df ;
+  background-color: #ffffff;
 }
 
 #navigation{
@@ -34,30 +34,23 @@
   line-height: 1.22;
   text-align: left;
   color: #744253;
-  grid-area: name;
+  grid-area: name ;
 }
 
 #main{
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
-  align-items: center;
   grid-template-areas: "name name name rightSide";
-  padding: 0px 35px 0px 35px;
-}
-
-.rightSide {
-  display: grid;
   align-items: center;
-  grid-area: rightSide;
-  margin: 90px 0 0 0;
 }
 
 .infoMini {
     width: 348px;
-  height: 435px;
+  height: 487px;
+  margin: -30px 0px 0px 0px;
   border: solid 2px #c78283;
   background-color: #ffffff;
-  justify-self: center;
+
 }
 
 .miniInfo {
@@ -68,15 +61,15 @@
   letter-spacing: normal;
   text-align: left;
   color: #744253;
-  margin: 150px 35px 0px 35px;
+  margin: -10px 35px 0px 35px;
 }
 
-.myImage {
-  justify-self: center;
-  margin-top: -1000px;
+
+.goldWashitape {
+   margin: -25px 0px 0px 0px;
 }
 
- .goldWashitape {
-  justify-self: center;
-  margin-top: -725px;
+.rightSide {
+  display: grid;
+  align-items: center;
 }
